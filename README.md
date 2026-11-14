@@ -1,39 +1,46 @@
-# mdayan-engineer.github.io
-Welcome to Md Ayan's portfolio! A Software Engineer, Web Developer, and Digital Marketer dedicated to business growth. Google Certified professional with expertise in creating exceptional web experiences.
+# MD AYAN Portfolio — Redesign
 
-<strong>About MD AYAN</strong><br>
-<strong>𝐖𝐞𝐛 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 & 𝐃𝐞𝐬𝐢𝐠𝐧𝐞𝐫 | 𝐆𝐨𝐨𝐠𝐥𝐞 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐖𝐞𝐛 𝐄𝐱𝐩𝐞𝐫𝐭 | 𝐂𝐞𝐫𝐭𝐢𝐟𝐢𝐞𝐝 𝐃𝐢𝐠𝐢𝐭𝐚𝐥 𝐌𝐚𝐫𝐤𝐞𝐭𝐞𝐫</strong><br>
+Static, responsive portfolio for GitHub Pages.
 
-Hello there! 𝐈'𝐦 𝐌𝐝 𝐀𝐲𝐚𝐧, 𝐚 𝐯𝐞𝐫𝐬𝐚𝐭𝐢𝐥𝐞 𝐰𝐞𝐛 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫, 𝐝𝐞𝐬𝐢𝐠𝐧𝐞𝐫, 𝐚𝐧𝐝 𝐆𝐨𝐨𝐠𝐥𝐞 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐄𝐱𝐩𝐞𝐫𝐭 𝐢𝐧 𝐖𝐞𝐛 𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐞𝐬, 𝐬𝐩𝐞𝐜𝐢𝐚𝐥𝐢𝐳𝐢𝐧𝐠 𝐢𝐧 𝐖𝐞𝐛 𝐏𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞. With a solid track record spanning over 2+ years, I'm deeply committed to crafting impactful websites.
+## Files
+- `index.html` — homepage and Person structured data
+- `assets/css/portfolio.css` — responsive design system
+- `assets/js/portfolio.js` — accessible navigation, reveal motion, role rotator and on-demand Calendly loading
+- `thank-you.html` — Formspree redirect destination
+- `404.html` — GitHub Pages not-found page
+- `robots.txt` and `sitemap.xml` — crawl configuration
+- `assets/images/` — existing original repository assets retained
 
-<strong>𝐒𝐤𝐢𝐥𝐥𝐬 & 𝐄𝐱𝐩𝐞𝐫𝐭𝐢𝐬𝐞:</strong><br>
+## Before publishing
+1. Confirm that `https://formspree.io/f/xyyqdowq` is the active form endpoint and that the Formspree account is configured to receive submissions. Submit a real test after publishing.
+2. Confirm the Calendly URL `https://calendly.com/md-ayan/book-appointment` is active and available for booking.
+3. Check every project destination and confirm that you have permission to display each brand/project and its identity. Remove or update any card that is not approved.
+4. Confirm current degree status and current role descriptions before adding stronger claims.
+5. If you want a downloadable CV, add a current PDF and link it after confirming the filename.
+6. Verify the two existing Google Search Console verification tokens in the Search Console account before adding any verification meta tag. No placeholder verification codes are included.
+7. After deployment, submit `https://mdayan-engineer.github.io/sitemap.xml` in Google Search Console and run PageSpeed Insights on mobile and desktop.
 
-◉ Front-End Development: HTML, CSS, JavaScript
-◉ Back-End Web Development: PHP, MySQL
-◉ WordPress Development
-◉ Web Performance Optimization
-◉ SEO & SEM Strategy
-◉ Certified Google Digital Marketer
-◉ Google Applied Digital Skills Ambassador
-◉ Microsoft Learner Student Campus Ambassador
-◉ Social Media Marketing
-◉ Teaching and Workshops
-My journey in the web realm is rooted in a strong commitment to excellence. Through a blend of creativity and functionality, I create websites that thrive in the competitive online landscape.
+## Contact form
+The form uses the existing Formspree endpoint found in the original repository. The form posts directly to Formspree; it does not use a custom backend. The thank-you page is configured as the post-submit redirect. Form delivery must be tested with the connected Formspree account.
 
-As a 𝐂𝐞𝐫𝐭𝐢𝐟𝐢𝐞𝐝 𝐃𝐢𝐠𝐢𝐭𝐚𝐥 𝐌𝐚𝐫𝐤𝐞𝐭𝐞𝐫 𝐫𝐞𝐜𝐨𝐠𝐧𝐢𝐳𝐞𝐝 𝐛𝐲 𝐆𝐨𝐨𝐠𝐥𝐞, I seamlessly merge technical proficiency with strategic marketing, resulting in websites that captivate users and rank prominently on search engines. I'm not just about designing; I'm about delivering measurable results.
+## Deployment
+Upload the contents of this folder to the repository's `main` branch (not the containing folder). Keep `assets/` at the repository root. GitHub Pages should publish from the root of `main`.
 
-From receiving the 𝐆𝐨𝐨𝐠𝐥𝐞 𝐀𝐩𝐩𝐥𝐢𝐞𝐝 𝐃𝐢𝐠𝐢𝐭𝐚𝐥 𝐒𝐤𝐢𝐥𝐥𝐬 𝐀𝐦𝐛𝐚𝐬𝐬𝐚𝐝𝐨𝐫 𝐂𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐞 to being a 𝐌𝐢𝐜𝐫𝐨𝐬𝐨𝐟𝐭 𝐋𝐞𝐚𝐫𝐧𝐞𝐫 𝐒𝐭𝐮𝐝𝐞𝐧𝐭 𝐂𝐚𝐦𝐩𝐮𝐬 𝐀𝐦𝐛𝐚𝐬𝐬𝐚𝐝𝐨𝐫, I've consistently sought opportunities to expand my horizons and contribute to the tech community.
+## Notes
+- The original portrait (`assets/images/hero-man-dark.png`) and logo (`assets/images/logo-light.png`) are reused without editing.
+- The redesign intentionally avoids invented testimonials, fabricated performance metrics and unverified credentials.
+- This is a static HTML/CSS/JS implementation; no framework build step is required.
 
-Let's collaborate to transform your web visions into reality. If you're searching for a skilled professional who seamlessly combines innovation with expertise, let's connect and explore the exciting possibilities.
 
-𝐊𝐞𝐲 𝐀𝐝𝐝𝐢𝐭𝐢𝐨𝐧𝐬:
+## FAQ and AI-search readiness
+- The homepage contains six visible, crawlable FAQ answers in native HTML `<details>` elements.
+- A matching `FAQPage` JSON-LD block is included. Structured data must always match visible page content.
+- Important profile and service information is present as readable HTML, not hidden behind client-side rendering.
+- The `Person` entity uses verified profile links in `sameAs` and relevant `knowsAbout` topics.
+- No `llms.txt` file is added as an SEO ranking tactic. Google's current AI-search guidance says such files and special AI markup are not required and do not improve Google Search visibility. Focus instead on crawlability, useful original content, clear structure, accurate facts and strong page experience.
+- FAQ structured data does not guarantee a Google FAQ rich result. Google limits FAQ rich results primarily to well-known authoritative government and health websites, so a personal portfolio should treat the FAQ as useful on-page content and semantic markup, not a promised SERP feature.
 
-1. Google Applied Digital Skills Ambassador: Highlighted your commitment to education and ambassadorship in the digital skills domain.
-2. Microsoft Learner Student Campus Ambassador: Showcased your active involvement in technology community-building efforts.
-3. Continual Learning: Emphasized your dedication to expanding your horizons and staying up-to-date with industry trends.
-
-<strong>Top Skills:</strong><br>
-• Back-End Web Development • WordPress • Digital Marketing • Front-End Development • Teaching
-
-<strong>Services:</strong><br>
-• Social Media Marketing • Digital Marketing • Graphic Design • Logo Design • Video Editing • WordPress Design • Web Design • Search Engine Marketing (SEM) • Search Engine Optimization (SEO) • Brand Marketing
+## Typography and sticky header update
+- Body and supporting text sizes have been increased for readability.
+- Desktop and mobile heading scales have been adjusted.
+- The sticky header remains pinned to the top while scrolling. The outer shell uses `overflow: clip` so it does not create a scrolling ancestor that interferes with sticky positioning.
